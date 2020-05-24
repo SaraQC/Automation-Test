@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Terkwaz assignment]">
+  <listeners>
+    <listener class-name="ExtendReportListener.ReportListener"/>
+  </listeners>
+  <test verbose="2" name="All Tests">
+    <classes>
+      <class name="tests.GoogleSearchTest">
+        <methods>
+          <include name="verifySearchResults"/>
+        </methods>
+      </class> <!-- tests.GoogleSearchTest -->
+      <class name="tests.GoogleSearchResultsTest">
+        <methods>
+          <include name="verifyIfThirdResultContainsSpecificText"/>
+        </methods>
+      </class> <!-- tests.GoogleSearchResultsTest -->
+      <class name="tests.FileUploaderTest">
+        <methods>
+          <include name="verifyOpeningFileUploaderPage"/>
+          <include name="verifyUploadingFile"/>
+        </methods>
+      </class> <!-- tests.FileUploaderTest -->
+      <class name="tests.DynamicLoadingTest">
+        <methods>
+          <include name="verifyOpeningDynamicLoadingPage"/>
+          <include name="verifyNavigatingToDynamicLoagingExample2"/>
+          <include name="verifyStartingTheDynamicLoadging"/>
+        </methods>
+      </class> <!-- tests.DynamicLoadingTest -->
+    </classes>
+  </test> <!-- All Tests -->
+  <test name="All Tests(failed)">
+    <classes>
+      <class name="tests.GoogleSearchTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="afterEachTest"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- tests.GoogleSearchTest -->
+      <class name="tests.DynamicLoadingTest">
+        <methods>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- tests.DynamicLoadingTest -->
+      <class name="tests.FileUploaderTest">
+        <methods>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- tests.FileUploaderTest -->
+      <class name="tests.GoogleSearchResultsTest">
+        <methods>
+          <include name="afterEachTest"/>
+          <include name="verifyIfThirdResultContainsSpecificText" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.GoogleSearchResultsTest -->
+    </classes>
+  </test> <!-- All Tests(failed) -->
+</suite> <!-- Failed suite [Terkwaz assignment] -->

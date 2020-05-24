@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Terkwaz assignment" duration-ms="19577" started-at="2020-05-24T20:29:10Z" finished-at="2020-05-24T20:29:29Z">
+    <groups>
+    </groups>
+    <test name="All Tests" duration-ms="19577" started-at="2020-05-24T20:29:10Z" finished-at="2020-05-24T20:29:29Z">
+      <class name="tests.DynamicLoadingTest">
+        <test-method status="PASS" signature="verifyOpeningDynamicLoadingPage()[pri:0, instance:tests.DynamicLoadingTest@2acf57e3]" name="verifyOpeningDynamicLoadingPage" duration-ms="1133" started-at="2020-05-24T22:29:22Z" finished-at="2020-05-24T22:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpeningDynamicLoadingPage -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.DynamicLoadingTest@2acf57e3]" name="afterEachTest" is-config="true" duration-ms="1" started-at="2020-05-24T22:29:23Z" finished-at="2020-05-24T22:29:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOpeningDynamicLoadingPage status=SUCCESS method=DynamicLoadingTest.verifyOpeningDynamicLoadingPage()[pri:0, instance:tests.DynamicLoadingTest@2acf57e3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.DynamicLoadingTest.verifyOpeningDynamicLoadingPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="verifyNavigatingToDynamicLoagingExample2()[pri:0, instance:tests.DynamicLoadingTest@2acf57e3]" name="verifyNavigatingToDynamicLoagingExample2" duration-ms="640" started-at="2020-05-24T22:29:23Z" finished-at="2020-05-24T22:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigatingToDynamicLoagingExample2 -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.DynamicLoadingTest@2acf57e3]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2020-05-24T22:29:24Z" finished-at="2020-05-24T22:29:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigatingToDynamicLoagingExample2 status=SUCCESS method=DynamicLoadingTest.verifyNavigatingToDynamicLoagingExample2()[pri:0, instance:tests.DynamicLoadingTest@2acf57e3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.DynamicLoadingTest.verifyNavigatingToDynamicLoagingExample2() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="verifyStartingTheDynamicLoadging()[pri:0, instance:tests.DynamicLoadingTest@2acf57e3]" name="verifyStartingTheDynamicLoadging" duration-ms="5150" started-at="2020-05-24T22:29:24Z" finished-at="2020-05-24T22:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStartingTheDynamicLoadging -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.DynamicLoadingTest@2acf57e3]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2020-05-24T22:29:29Z" finished-at="2020-05-24T22:29:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStartingTheDynamicLoadging status=SUCCESS method=DynamicLoadingTest.verifyStartingTheDynamicLoadging()[pri:0, instance:tests.DynamicLoadingTest@2acf57e3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.DynamicLoadingTest.verifyStartingTheDynamicLoadging() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- tests.DynamicLoadingTest -->
+      <class name="tests.GoogleSearchTest">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:tests.GoogleSearchTest@17f6480]" name="startDriver" is-config="true" duration-ms="7382" started-at="2020-05-24T22:29:02Z" finished-at="2020-05-24T22:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="verifySearchResults(java.lang.String)[pri:0, instance:tests.GoogleSearchTest@17f6480]" name="verifySearchResults" duration-ms="3179" started-at="2020-05-24T22:29:12Z" data-provider="SearchData" finished-at="2020-05-24T22:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResults -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.GoogleSearchTest@17f6480]" name="afterEachTest" is-config="true" duration-ms="1" started-at="2020-05-24T22:29:15Z" finished-at="2020-05-24T22:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchResults status=SUCCESS method=GoogleSearchTest.verifySearchResults(java.lang.String)[pri:0, instance:tests.GoogleSearchTest@17f6480] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.GoogleSearchTest.verifySearchResults(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.GoogleSearchTest@17f6480]" name="stopDriver" is-config="true" duration-ms="784" started-at="2020-05-24T22:29:29Z" finished-at="2020-05-24T22:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.GoogleSearchTest -->
+      <class name="tests.FileUploaderTest">
+        <test-method status="PASS" signature="verifyOpeningFileUploaderPage()[pri:0, instance:tests.FileUploaderTest@2812cbfa]" name="verifyOpeningFileUploaderPage" duration-ms="5265" started-at="2020-05-24T22:29:16Z" finished-at="2020-05-24T22:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpeningFileUploaderPage -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.FileUploaderTest@2812cbfa]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2020-05-24T22:29:21Z" finished-at="2020-05-24T22:29:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOpeningFileUploaderPage status=SUCCESS method=FileUploaderTest.verifyOpeningFileUploaderPage()[pri:0, instance:tests.FileUploaderTest@2812cbfa] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.FileUploaderTest.verifyOpeningFileUploaderPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="verifyUploadingFile(java.lang.String)[pri:0, instance:tests.FileUploaderTest@2812cbfa]" name="verifyUploadingFile" duration-ms="856" started-at="2020-05-24T22:29:21Z" data-provider="FileProvider" finished-at="2020-05-24T22:29:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\sara.ali\\eclipse-workspace\\Terkwaz\\Files\\Terkwaz.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUploadingFile -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.FileUploaderTest@2812cbfa]" name="afterEachTest" is-config="true" duration-ms="1" started-at="2020-05-24T22:29:22Z" finished-at="2020-05-24T22:29:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUploadingFile status=SUCCESS method=FileUploaderTest.verifyUploadingFile(java.lang.String)[pri:0, instance:tests.FileUploaderTest@2812cbfa] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.FileUploaderTest.verifyUploadingFile(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- tests.FileUploaderTest -->
+      <class name="tests.GoogleSearchResultsTest">
+        <test-method status="FAIL" signature="verifyIfThirdResultContainsSpecificText(java.lang.String)[pri:0, instance:tests.GoogleSearchResultsTest@2d6e8792]" name="verifyIfThirdResultContainsSpecificText" duration-ms="134" started-at="2020-05-24T22:29:15Z" data-provider="SearchResult" finished-at="2020-05-24T22:29:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[What is Selenium WebDriver?]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cant't find (What is Selenium WebDriver?) at the third result's text expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cant't find (What is Selenium WebDriver?) at the third result's text expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at tests.GoogleSearchResultsTest.verifyIfThirdResultContainsSpecificText(GoogleSearchResultsTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfThirdResultContainsSpecificText -->
+        <test-method status="PASS" signature="afterEachTest(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.GoogleSearchResultsTest@2d6e8792]" name="afterEachTest" is-config="true" duration-ms="564" started-at="2020-05-24T22:29:16Z" finished-at="2020-05-24T22:29:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIfThirdResultContainsSpecificText status=FAILURE method=GoogleSearchResultsTest.verifyIfThirdResultContainsSpecificText(java.lang.String)[pri:0, instance:tests.GoogleSearchResultsTest@2d6e8792] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.GoogleSearchResultsTest.verifyIfThirdResultContainsSpecificText(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+      </class> <!-- tests.GoogleSearchResultsTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Terkwaz assignment -->
+</testng-results>
