@@ -17,8 +17,5 @@ This is my created test scripts to implement the sent automation task, as below 
 - You will find the generated Extend Report with name (ExtendReport.html) inside the "test-output" folder.
 
 ### Steps to clone execute the tests
-```
-git clone https://github.com/naveenanimation20/PageObjectModel
-cd PageObjectModel
-mvn clean test
-```
+
+git clone https://github.com/SaraQC/Automation-Test.git
