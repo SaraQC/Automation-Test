@@ -15,6 +15,7 @@ This is my created test scripts to implement the sent automation task, as below 
 ### Tips
 - You can run the project via the XML file (RunTests.xml).
 - You will find the generated Extend Report with name (ExtendReport.html) inside the "test-output" folder.
+- The used driver is chromedriver81, you can change based on your browse version.
 
 ### Steps to clone execute the tests
 
