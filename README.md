@@ -1,5 +1,5 @@
 # Terkwaz Test Automation Assignment
-This is my created test scripts to implement the sent automation task, as below environment description:
+This is my created test scripts to implement the sent web UI automation task, as below environment description:
 
 - Java/Maven Project.
 - Selenium WebDriver Framework.
