@@ -24,8 +24,14 @@ public class ReportListener implements IReporter{
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
-		extent = new ExtentReports(outputDirectory + File.separator
-				+ "ExtentReport.html", true);
+		
+		// -- To save the generated report in the test-output folder
+		// extent = new ExtentReports(outputDirectory + File.separator
+		// + "ExtentReport.html", true);
+		
+		// -- Save the generated report on aseperate folder on project's level
+		extent = new ExtentReports(System.getProperty("user.dir") + File.separator + "reports" + File.separator
+				+ this.getClass().getSimpleName().toString() + ".html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
