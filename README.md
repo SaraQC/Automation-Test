@@ -1,4 +1,4 @@
-# Test Automation Assignment
+# Test Automation sample
 This is the created test scripts to implement the web UI automation test scripts for (google search, file upload and Dynamic loading) as below
 
 ### Environment description
