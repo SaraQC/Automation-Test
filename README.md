@@ -1,5 +1,5 @@
-# Terkwaz Test Automation Assignment
-This is the created test scripts to implement the sent web UI automation task, as below
+# Test Automation Assignment
+This is the created test scripts to implement the web UI automation test scripts for (google search, file upload and Dynamic loading) as below
 
 ### Environment description
 - Java/Maven Project.
